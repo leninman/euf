@@ -1,0 +1,49 @@
+package com.bod.securefactorbod.euf.util;
+
+public class Constants {
+	
+	public static int NOTVALIDPARAMETER_CODE=96;
+	
+	public static int NOTVALIDCLIENT_CODE=97;
+	
+	public static int NULLPARAMETER_CODE=98;
+	
+	public static int SERVERERROR_CODE=99;
+	
+	public static int FINGERPRINTOK_CODE=100;
+	
+	public static int FINGERPRINTBAD_CODE=101;
+	
+	
+	public static String NOTVALIDPARAMETER_DESC="PARÁMETRO NO VALIDO";
+	
+	public static String NOTVALIDCLIENTE_DESC="EL CLIENTE REPRESENTADO POR EL SHAREDKEY SUMINISTRADO NO EXISTE";
+	
+	public static String NULLPARAMETER_DESC="PARÁMETRO NULO O VACIO";
+	
+	
+	public static String SERVERERROR_DESC="ERROR EN EL SERVIDOR O EN LA COMUNICACION ENTRE LA APLICACION Y EL SERVIDOR";
+	
+	
+	public static String FINGERPRINTOK_DESC="LA HUELLA DEL DISPOSITIVO COINCIDE CON UNO DE SU LISTA BLANCA";
+	
+
+	public static String FINGERPRINTBAD_DESC="LA HUELLA SUMINISTRADA NO COINCIDE CON NINGUNA DE LAS REGISTRADAS";
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+
